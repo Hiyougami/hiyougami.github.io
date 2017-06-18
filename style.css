@@ -1,0 +1,269 @@
+/*
+	JACK PARSONS
+	jack@hiyougami.co.uk
+
+	THEME COLOURS
+	Background grey:	#585858 (was #606060)
+	Red highlight:		#de6c6c
+*/
+
+/* MAIN HTML */
+
+html {
+/*background-color:#606060;*/
+background-color:#606060;
+height:122px;
+background-image:url('img/bghouse.png');
+background-repeat:no-repeat;
+background-position:center bottom;
+background-size:auto 98%;
+background-origin:padding-box;
+background-attachment:fixed;
+}
+
+/* BODY AND LINKS */
+
+body {
+margin:0;
+padding:0;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+p {
+color:#dddddd;
+padding:4px 0 4px 0;
+text-align:justify;
+}
+
+div {width:780px;margin:auto;}
+
+h1 {
+color:#eeeeee;
+text-transform:uppercase;
+font-weight:lighter;
+font-size:14pt;
+}
+
+h2 {
+color:#eeeeee;
+text-transform:uppercase;
+font-weight:normal;
+font-size:18pt;
+margin:0;
+padding-bottom:11px;
+}
+
+h3 {
+color:#b3b3b3;
+text-transform:uppercase;
+font-weight:normal;
+font-size:10pt;
+margin:0;
+padding-bottom:11px;
+}
+
+a {color:#df7f7f;
+font-weight:bold;
+text-decoration:none;
+-moz-transition: all 0.08s linear;
+-webkit-transition: all 0.08s linear;
+-o-transition: all 0.08s linear;
+transition: all 0.08s linear;
+}
+a:hover {color:#ffffff;}
+
+::selection {background: #cc9999;}
+::-moz-selection {color: #f8cccc;}
+
+/* CONTAINER */
+
+#container {
+width:100%;
+height:100%;
+margin:auto;
+}
+
+/* HEADER */
+
+#header {
+height:55px;
+margin-top:50px;
+margin-bottom:35px;
+/*background-image:url('img/header.png');*/
+background-repeat:no-repeat;
+background-position:left;
+background-size:409px 55px;
+background-color:transparent;
+position:relative;
+}
+
+/* NAVIGATION */
+
+#nav {
+text-transform:uppercase;
+position:absolute;
+right:0;
+bottom:1px;
+width:300px;
+}
+#nav ul {
+list-style-type:none;
+margin:0 0 -20px 0;
+padding:0 0 20px 0;
+font-size:9pt;
+text-align:right;
+border-bottom:2px solid rgba(128,128,128,0.2);}
+#nav ul li {margin:0;padding:0;display:inline;}
+#nav ul li a {background-color:transparent;color:#ffffff;margin:0;padding:6px 16px 6px 16px;font-weight:normal;}
+#nav ul li a:hover {background-color:#af7070;text-shadow:0px 0px 10px rgba(50,0,0,0.3);color:#ffffff;}
+/*#nav ul #currentPage a {background-color:#af7070;color:#ffffff;text-shadow:0px 0px 10px rgba(50,0,0,0.3);}*/
+#nav ul #currentPage a:hover {background-color:rgba(175,112,112,0.35);text-shadow:none}
+#nav ul #contactLink a:hover {background-color:#ffffff;color:#000000;}
+
+/* FOOTER */
+
+#footer {
+margin: 1px auto 1px auto;
+padding-bottom:30px;
+text-transform:uppercase;
+text-align:right;
+font-size:10pt;
+color:#a1a1a1;
+}
+#footer ul {margin:0 0 3px 0;padding:0;}
+#footer ul li {display:inline;padding:0px 0px 0px 16px;}
+#footer p {margin:0;padding:0;text-align:right;}
+#footer a {text-transform:lowercase;color:#ffa8a8;}
+#footer a:hover {color:#e27070;}
+
+#disclaimer  p {
+color:#929292;
+text-align:right;
+font-size:7pt;
+margin-top:4px;
+margin-bottom:2px;
+float:right;
+clear:both;
+}
+
+/* YOUTUBE FRAME */
+
+.ytWrapper {width:680px;margin:0;text-align:center;margin-top:8px;margin-bottom:8px;}
+iframe {border:0px;}
+
+/*
+	PAGE-SPECIFIC CONTENT
+*/
+
+/* HOMEPAGE CONTENT */
+
+#homepageContent {
+text-align:justify;
+position:relative;
+}
+#about {
+position:absolute;
+top:226px;
+left:387px;
+width:387px;
+height:229px;
+font-size:10.5pt;
+text-align:left;
+background: linear-gradient(to left,  rgba(96,96,96,0) 0%,rgba(96,96,96,0.95) 30%,rgba(96,96,96,0.95) 70%,rgba(96,96,96,0.4) 100%);
+}
+#about p {
+text-align:left;
+margin:21px 1px 15px 18px;
+}
+#about p a {
+font-weight:normal;
+}
+#contactLink {text-transform:lowercase;color:#ffa8a8;}
+#contactLink:hover {color:#e27070;}
+#imgBar,#imgLib,#imgIsland,#imgOffice {
+position:relative;
+}
+#imgBarC,#imgLibC,#imgIslandC,#imgOfficeC {
+position:relative;
+}
+#contact {
+position:relative;
+}
+.colourFade {
+transition: all 0.6s;
+-webkit-transition: all 0.6s;
+opacity:0;
+}
+.colourFade:hover {
+opacity:1;
+}
+
+/* WORKPAGE POST */
+
+.workPost {position:relative;}
+.workPost h1 {padding:0px;font-family:Calibri,Verdana,sans-serif;}
+.workPost h2 {font-size:24pt;font-family:'Calibri Light',Calibri,Verdana,sans-serif;margin-left:25px;margin-top:30px;text-transform:none;}
+.workPost p {padding-top:0px;margin-top:0px;margin-bottom:52px;margin-left:25px;margin-right:25px;font-size:11pt;}
+
+.workImages {position:relative;height:200px;}
+
+/* WORKPAGE IMAGE CROP */
+
+.cropFrame {
+text-align:justify;
+position:relative;
+width:100%;
+height:200px;
+margin:0;
+padding:0;
+list-style-type:none;
+margin-bottom:18px;}
+.crop {
+display:inline-block;
+margin:0;
+padding:0;
+height:200px;
+width:107px;
+background-color:transparent;
+position:absolute;
+transition: all 0.41s;
+-webkit-transition: all 0.41s;
+background-repeat:no-repeat;
+background-position:center;
+background-size:auto 200px;
+}
+.crop:hover {
+width:355px;
+z-index:3;
+box-shadow:0px 5px 11px rgba(0,0,0,0.22);
+}
+.cropLarge {
+display:inline-block;
+margin:0;
+padding:0;
+height:200px;
+width:220px;
+background-color:transparent;
+position:absolute;
+transition: all 0.41s;
+-webkit-transition: all 0.41s;
+background-repeat:no-repeat;
+background-position:center;
+background-size:auto 200px;
+}
+.cropLarge:hover {
+width:355px;
+z-index:3;
+box-shadow:0px 5px 11px rgba(0,0,0,0.22);
+}
+#airCropLarge {width:108px;}
+#airCropLarge:hover {width:283px;}
+
+/* BLOG POST */
+
+.blogPost {position:relative;margin-top:10px;border-bottom:2px solid rgba(127,127,127,0.3);margin-bottom:20px;}
+.blogPost h2 {padding:0px;font-family:Calibri,Verdana,sans-serif;text-transform:uppercase;font-size:15pt;}
+.blogPost p {margin-top:0px;padding-bottom:15px;text-align: justify;width:680px;}
+
+.postTitle {width:100%;position:relative;font-family:Calibri,Verdana,sans-serif;}
+.postDate {text-align:right;position:absolute;top:inherit;padding-top:5px;width:100px;right:0px;}
