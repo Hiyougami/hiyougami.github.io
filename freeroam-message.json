@@ -2,6 +2,6 @@
     "message":{
         "id": 0,
         "title": "Welcome!",
-        "body": "<b>Thank you for visiting my test world!</b>\nHave fun!"
+        "body": "Thank you for visiting my test world! Have fun!"
     }
 }
