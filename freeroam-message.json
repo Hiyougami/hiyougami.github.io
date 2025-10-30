@@ -1,8 +1,8 @@
 {
     "message":{
-        "id": 1,
-        "title": "Testing 1!",
-        "body": "Woah, test is here!"
+        "id": 2,
+        "title": "Testing 2!",
+        "body": "<i>And another one</i>\noh <size=50>god</size>"
     },
     "messageDefault":{
         "id": 0,
