@@ -1,12 +1,13 @@
 {
     "message":{
-        "id": 2,
-        "title": "Testing 2!",
-        "body": "<i>And another one</i>\noh <size=50>god</size>"
+        "id": 1,
+        "title": "Welcome!",
+        "body": "<b>Thank you for visiting my test world!</b>\n\n<i>This world is in its early design phase. For an example of what the final product might look like, check out <b>City of Glass 2.</b></i>\n\n<size=40><b>Changelog:</b></size>\n\n<size=35>• Filled out another back route to orange area\n• Added unlockable checkpoints (check your map)</size>"
     },
     "messageDefault":{
         "id": 0,
         "title": "Welcome!",
-        "body": "Thank you for visiting my test world! Have fun!"
+        "body": "Thank you for visiting my test world! Have fun!",
+        "charsforcopying": "•"
     }
 }
