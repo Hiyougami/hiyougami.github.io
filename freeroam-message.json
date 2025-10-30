@@ -1,6 +1,11 @@
 {
     "message":{
         "id": 0,
+        "title": "Title!",
+        "body": "Woah, text is here!"
+    },
+    "messageDefault":{
+        "id": 0,
         "title": "Welcome!",
         "body": "Thank you for visiting my test world! Have fun!"
     }
