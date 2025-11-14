@@ -1,8 +1,8 @@
 {
     "message":{
-        "id": 1,
+        "id": 2,
         "title": "Welcome!",
-        "body": "<b>Thank you for visiting my test world!</b>\n\n<i>This world is in its early design phase. For an example of what the final product might look like, check out <b>City of Glass 2.</b></i>\n\n<size=40><b>Changelog:</b></size>\n\n<size=35>• Started on new area\n• Added Settings panel to map screen\n• Added ability to hide your map marker</size>"
+        "body": "<b>Thank you for visiting my test world!</b>\n\n<i>This world is in its early design phase. For an example of what the final product might look like, check out <b>City of Glass 2.</b></i>\n\n<size=40><b>Changelog:</b></size>\n\n<size=35>• Started on new area\n• Added Settings panel to map screen\n• Added ability to hide your map marker\n• Added more floors to tallest building</size>"
     },
     "messageDefault":{
         "id": 0,
