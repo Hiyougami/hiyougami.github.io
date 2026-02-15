@@ -1,8 +1,8 @@
 {
     "message":{
-        "id": 3,
+        "id": 4,
         "title": "Welcome!",
-        "body": "<b>Thank you for visiting my test world!</b>\n\n<i>This world is in its early design phase. For an example of what the final product might look like, check out <b>City of Glass 2.</b></i>\n\n<size=40><b>Changelog:</b></size>\n\n<size=35>• Fixed some visual bugs\n• Fixed some stairs and pipes bugs\n• Scaled down mini world map\n• Added support for VRC Third Person view</size>"
+        "body": "<b>Thank you for visiting my test world!</b>\n\n<i>This world is in its early design phase. For an example of what the final product might look like, check out <b>City of Glass 2.</b></i>\n\n<size=40><b>Changelog:</b></size>\n\n<size=35>• Added new tutorial area\n• Added new building on the flattest roof\n• Sun now follows proper Altitude/Azimuth\n• Added footstep sounds for metal</size>"
     },
     "messageDefault":{
         "id": 0,
